@@ -1,0 +1,44 @@
+@charcet "UTF-8";
+/*
+em html  id , no css seleciona  usando #( usar cada id  para um elepento por cada pagina html)
+em html class, no css seleciona usando .  ( pode usar a mesma classe em varios elementos na mesma pagina HTML)
+ */
+body{
+ background-color: rgba(233, 254, 241, 0.858);
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: green;
+}
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+h2{
+    color: rgb(86, 115, 89);
+}
+.intermediario{
+ color: rgb(121, 86, 86);
+}
+.avancado{
+    color: rgb(163, 22, 22);
+}
+.destaque{
+    background-color: rgba(154, 186, 92, 0.81);
+}
+/*
+pseudoclasses e pseudoelementos
+ usados para dar efeito  especifico aos elementos do htlm
+ pseudoclasses usa-se :
+ pseudoelementos usa-se ::
+ para referir a filho do elemento usa se >
+*/
+
+h2:hover{
+ background-color: yellowgreen;
+}
+.destaque:hover{
+    background-color: burlywood;
+}
